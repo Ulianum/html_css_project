@@ -1,3 +1,5 @@
+/* @import url(mobile-styles.css); */
+
 /* Reset styles */ 
 * {
   box-sizing: border-box;
@@ -117,6 +119,7 @@ select {
 
 .cta-block__header {
   font-size: 4rem;
+  font-weight: 700;
   line-height: 1.210277;
   margin-bottom: 0.6111111111rem;
 }
@@ -198,6 +201,7 @@ select {
   padding-bottom: 18.5px;
   border-radius: 8px;
 }
+
 
 .header .button:hover,
 .footer .button:hover {
@@ -625,7 +629,7 @@ select {
   background-position-y: bottom;
 }
 
-.tech_for_background-image {
+.tech-for-background-image {
   position: absolute;
   left: -17%;
   top: 237.884444rem;
